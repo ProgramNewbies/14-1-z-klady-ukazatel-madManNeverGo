@@ -33,11 +33,9 @@ int main()
     if (((*p_a + *p_b + *p_c) % 2) == 1 )
     {
         printf("Soucet je lichy\n");
-    } else if (((*p_a + *p_b + *p_c) % 2) == 0)
-    {
+    } else {
         printf("Soucet je sudy\n");
     }
-    
 
     
     
