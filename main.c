@@ -30,7 +30,7 @@ int main()
     }
 
 
-    if (((*p_a + *p_b + *p_c) % 2) == 1 )
+    if (((*p_a + *p_b + *p_c) % 2) == 1 || ((*p_a + *p_b + *p_c) % 2) == -1  )
     {
         printf("Soucet je lichy\n");
     } else {
